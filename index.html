@@ -24,10 +24,19 @@
       margin-bottom: 16px;
     
     }
+    .mail {
+      margin: 5px 15px 5px 15px;
+       color: whitesmoke; 
+       text-decoration: none;
+       font-weight: bold;
+    }
+    .mail:hover {
+      color:gray;
+    }
   </style>
 </head>
 
-<body>
+<body style="background-color: black;">
  
   <nav class="navbar shadow-sm fixed-top bg-white">
   <div class="container-fluid">
@@ -40,36 +49,37 @@
 <div style="height:56px"></div>
   
  
-  <img class="img-fluid" id="banner" src="/static/ban.webp"
+  <img class="img-fluid" id="banner" src="/static/ban1.webp"
    
   <div>  
 
-    <h1 class="text-center mt-2 mb-4">
+    <h1 class="text-center mt-2 mb-4" style="color:whitesmoke;" >
+      
       Despre familia Muntenas
     </h1>
-    <div class="row" style="margin:50px 0 50px 50px;">
+    <div class="row" style="margin:50px 0 50px 0;">
    
       <div class="col-md-4">
-        <img src="/images/us_playa.webp"  style="width:480px;height:640px;border-radius:4px;">
+        <img src="/images/us_playa.webp"  style="width:480px;height:640px;border-radius:0 100px 0 100px;">
        </div>
       <div class="col-md-4">
-        <p class="lead">
+        <p class="lead text-center mt-2 mb-4" style="color:whitesmoke;">
           Suntem familia Muntenas.
           Mai multa descrieere cu timpul...
         </p>
       </div>
       <div class="col-md-4">
-        <img src="/static/us.webp" usemap="#us" style="width:480px;height:640px;border-radius:4px;">
+        <img src="/static/us.webp" usemap="#us" style="width:480px;height:640px;border-radius:100px 0 100px 0;">
      
         <!-- Maps -->
          
         <map name="us">
-            <area shape="circle" coords="310,278,60" alt="Logo" href="/templates/ali.html">
-          <area shape="circle" coords="125,350,60" alt="Logo" href="/templates/flori.html">
+            <area shape="circle" coords="310,278,60" title="Ali" alt="Logo" href="/templates/ali.html">
+          <area shape="circle" coords="125,350,60" title="Flori" alt="Logo" href="/templates/flori.html">
         </map>
       </div>
  
-    <h2 class="text-center mt-2 mb-4";">Membrii familiei</h2>
+    <h2 class="text-center mt-2 mb-4" style="color:whitesmoke;">Membrii familiei</h2>
 
   <div>
      <h3>
@@ -77,15 +87,15 @@
     <div class="container">
   
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-       <a href="mailto:alexandru.muntenas@gmail.com?subject=Vreau%20sa%20vorbesc%20cu%20tine..&body=Nume%3A%0D%0APrenume%3A%0D%0AAdresa%3A" class="nav-link px-2 text-muted"  >
+       <a href="mailto:alexandru.muntenas@gmail.com?subject=Vreau%20sa%20vorbesc%20cu%20tine..&body=Nume%3A%0D%0APrenume%3A%0D%0AAdresa%3A" class="mail"  >
         Alexandru Gheorghe
       </a>
-       <a> &nbsp </a>
-     <a href="mailto:florentina.muntenas@gmail.com?subject=Vreau%20sa%20vorbesc%20cu%20tine..&body=Nume%3A%0D%0APrenume%3A%0D%0AAdresa%3A" class="nav-link px-2 text-muted"  >
-        <em>Florentina Rodica</em>
+    
+     <a href="mailto:florentina.muntenas@gmail.com?subject=Vreau%20sa%20vorbesc%20cu%20tine..&body=Nume%3A%0D%0APrenume%3A%0D%0AAdresa%3A" class="mail" >
+        <strong>Florentina Rodica</strong>
        </a>
-        <a> &nbsp </a>
-       <a  class="nav-link px-2 text-muted"> <strong> Alexandru Theodor </strong></a>
+    
+       <a class="mail"> Alexandru Theodor</a>
      
     </ul>
       </div>  
